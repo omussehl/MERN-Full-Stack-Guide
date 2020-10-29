@@ -31,6 +31,7 @@ const Input = (props) => {
         id={props.id}
         type={props.type}
         placeholder={props.placeholder}
+        onChange={changeHandler}
         value={inputState.value}
       />
     ) : (
